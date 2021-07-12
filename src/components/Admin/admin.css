@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+.admin_body {
+    background-color: blue;
+    padding-top: 55px;
+}
+
+
+.admin_header {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    flex-direction: column;
+    
+    background-color: #d2d2d2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.inventory_menu,
+.team_menu,
+.order_menu {
+    background-color: rgb(224, 123, 123);
+    padding: 8px 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.team_menu,
+.order_menu {
+    margin-top: 10px;
+}
+
+.admin_button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #1c8ef8;
+    border-radius: 5px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.admin_button:hover {
+    text-decoration: none;
+    color: black
+}
+
+/* Active Button */
+
+.admin_active_button {
+    background-color: #758492;
+    color: white;
+}
